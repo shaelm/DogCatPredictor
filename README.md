@@ -3,7 +3,7 @@ A Simple CNN Classifier to Predict whether an image is Dog or a Cat
 
 ### Running Model
 
-To run the model, the dataset is first prepared and serialized using Pickle. The model is then trained via these prepared images. Once the model is saved, it can be used for novel pictures to predict the type of animal
+To run the model, the dataset is first prepared and serialized using Pickle. The model is then trained via these prepared images. Once the model is saved, it can be used for novel pictures to predict the type of animal. To test the model out, the DATADIR must be changed in the CreatePetDataset.py file.
 
 
 ## Built With
