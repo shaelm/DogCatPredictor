@@ -14,7 +14,7 @@ def prepare(filepath):
     new_array = cv2.resize(img_array, (IMG_SIZE, IMG_SIZE))  # resize image to match model's expected sizing
     return new_array.reshape(-1, IMG_SIZE, IMG_SIZE, 1)  # return the image with shaping that TF wants.
 
-model = tf.keras.models.load_model("DogvCatCNN2.model")
+model = tf.keras.models.load_model("DogvCatCNN.model")
 img_to_guess=([prepare('dog.jpg')])
 prediction = model.predict(img_to_guess)
 print("It's a " + CATEGORIES[int(prediction[0][0])])
