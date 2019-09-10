@@ -19,7 +19,7 @@ import pickle
 
 import cv2
 
-DATADIR = "C:/Users/shael/Desktop/Engineering/Comp Eng 2019-2020/Fall 2019/Capstone/Programming/GAN/PetImages"
+DATADIR = ".../PetImages"
 IMG_SIZE=50
 CATEGORIES=["Dog","Cat"]
 training_data=[]
